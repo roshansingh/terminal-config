@@ -1,0 +1,7 @@
+[user]
+	name = Roshan Singh
+	email = foo@bar.com 
+[alias]
+	co = checkout
+	ci = commit
+	st = status
