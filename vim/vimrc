@@ -1,7 +1,22 @@
+" language specific syntax highlighting
 syntax on
-set autoindent
-set hlsearch
+
+filetype off
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+call pathogen#infect()
+
+filetype on
+filetype plugin indent on
+
+"set autoindent
+"set smartindent
+
+" set number
 set nu
+
+" Searching related
 set showmatch
 set ignorecase
 set incsearch
+set hlsearch

@@ -5,3 +5,7 @@
 	co = checkout
 	ci = commit
 	st = status
+[color]
+        ui = true
+[core]
+	excludesfile = ~/.gitignore

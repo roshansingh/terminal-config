@@ -1,0 +1,8 @@
+*.log
+*.class
+target/
+bin/
+bin-debug/
+bin-release/
+bin-release-temp/
+html-template/
