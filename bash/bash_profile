@@ -3,3 +3,12 @@ export EDITOR=vim
 alias ll='ls -l'
 
 export CLICOLOR=1
+export LSCOLORS=exfxcxdxbxegedabagacad;
+
+# history
+export HISTTIMEFORMAT="%h %d %H:%M:%S "
+export HISTSIZE=10000
+export HISTFILESIZE=10000
+shopt -s histappend
+export HISTIGNORE="ls:ps:history"
+PROMPT_COMMAND='history -a'
